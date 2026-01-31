@@ -1,0 +1,88 @@
+version: 2
+
+updates:
+  # =====================================================
+  # 1) GitHub Actions — bezpieczeństwo pipeline
+  # =====================================================
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Europe/Warsaw"
+
+    open-pull-requests-limit: 3
+    rebase-strategy: "disabled"
+
+    commit-message:
+      prefix: "deps(security)"
+      include: "scope"
+
+    labels:
+      - "dependencies"
+      - "security"
+      - "compliance"
+
+    # ❗ Enterprise rule: wszystko przez PR
+    reviewers:
+      - "@OWNER"
+    assignees:
+      - "@OWNER"
+
+  # =====================================================
+  # 2) Python — CVE-first, zero major updates
+  # =====================================================
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:30"
+      timezone: "Europe/Warsaw"
+
+    open-pull-requests-limit: 3
+    rebase-strategy: "disabled"
+
+    commit-message:
+      prefix: "deps(security)"
+      include: "scope"
+
+    labels:
+      - "dependencies"
+      - "security"
+      - "compliance"
+
+    # 🔒 BLOKADA BREAKING CHANGES
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+
+  # =====================================================
+  # 3) JavaScript — CVE-first, stabilność
+  # =====================================================
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "07:00"
+      timezone: "Europe/Warsaw"
+
+    open-pull-requests-limit: 3
+    rebase-strategy: "disabled"
+
+    commit-message:
+      prefix: "deps(security)"
+      include: "scope"
+
+    labels:
+      - "dependencies"
+      - "security"
+      - "compliance"
+
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
