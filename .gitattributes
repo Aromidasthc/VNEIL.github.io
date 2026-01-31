@@ -1,0 +1,9 @@
+# Normalize line endings and set repo defaults
+* text=auto
+
+# Force LF for markdown and shell scripts
+*.md text eol=lf
+*.sh text eol=lf
+
+# Force CRLF for PowerShell scripts
+*.ps1 text eol=crlf
