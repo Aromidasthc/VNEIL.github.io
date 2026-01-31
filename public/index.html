@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VNEIL-GENESIS Demo</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 2rem; }
+      header { margin-bottom: 1rem }
+      .status { color: green }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>VNEIL-GENESIS — Demo</h1>
+    </header>
+    <main>
+      <p>Prosty demo serwer statyczny. Sprawdź endpoint zdrowia:</p>
+      <pre id="health">Ładowanie...</pre>
+    </main>
+    <script>
+      fetch('/api/health').then(r => r.json()).then(d => {
+        document.getElementById('health').textContent = JSON.stringify(d, null, 2);
+      }).catch(e => {
+        document.getElementById('health').textContent = 'Błąd: ' + e.message;
+      });
+    </script>
+  </body>
+</html>
