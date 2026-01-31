@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <!--
+      Target the latest stable .NET (net9.0 as of Jan 2026). The Web SDK
+      includes ASP.NET Core dependencies required for minimal APIs.
+    -->
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
