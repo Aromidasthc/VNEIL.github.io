@@ -1,0 +1,16 @@
+# TSVNE SYSTEM — Dokumentacja
+
+Pełna dokumentacja TSVNE została przeniesiona do:
+👉 [TSVNE-SYSTEM.md](TSVNE-SYSTEM.md)
+
+Dodatkowe zasoby:
+- [TSVNE Developer Guide](TSVNE-DEVELOPER-GUIDE.md) — Praktyczny przewodnik
+- [tsvne-template.js](tsvne-template.js) — Wzorcowy moduł
+- [tsvne-validator.js](tsvne-validator.js) — Narzędzie walidacji
+
+---
+
+Uwaga: Ten plik jest zachowany dla kompatybilności wstecznej.
+Instalacja Git (dla Windows):
+
+winget install --id Git.Git -e --source winget
