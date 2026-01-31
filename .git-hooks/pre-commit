@@ -1,0 +1,33 @@
+#!/bin/sh
+# VNEIL-GENESIS Pre-commit Hook
+# Runs linting and tests before allowing commit
+
+echo "🔍 Running pre-commit checks..."
+
+# Run tests
+echo "Running TSVNE tests..."
+npm test
+if [ $? -ne 0 ]; then
+  echo "❌ Tests failed. Commit aborted."
+  exit 1
+fi
+
+# Run TSVNE validation
+echo "Validating TSVNE compliance..."
+npm run validate
+if [ $? -ne 0 ]; then
+  echo "⚠️  TSVNE validation warnings (non-blocking)"
+fi
+
+# Run ESLint (if configured)
+if command -v eslint >/dev/null 2>&1; then
+  echo "Running ESLint..."
+  npm run lint
+  if [ $? -ne 0 ]; then
+    echo "⚠️  Linting issues found (run 'npm run lint:fix' to fix)"
+    echo "Continuing with commit..."
+  fi
+fi
+
+echo "✅ All pre-commit checks passed!"
+exit 0

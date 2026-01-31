@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="VNEIL OS - Futurystyczny System Operacyjny TSVNE" />
+    <meta name="theme-color" content="#0a0a0f" />
+    <title>VNEIL OS — System Operacyjny TSVNE</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="logo-container">
+        <img src="logo.jpeg" alt="VERTYX NEXUS EIL Logo" class="logo" />
+      </div>
+      <h1 class="system-title">VNEIL OS</h1>
+      <p class="system-subtitle">System Operacyjny TSVNE</p>
+      
+      <!-- Observer Mode Toggle -->
+      <div class="observer-mode-control">
+        <button id="observer-toggle" class="observer-button" aria-label="Przełącz tryb obserwatora">
+          <span class="observer-icon">👁️</span>
+          <span id="observer-status">Tryb Obserwatora: OFF</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+      <!-- NEW: SYSTEM LIVE Section -->
+      <section class="system-live-section">
+        <h2 class="section-title">⚡ SYSTEM LIVE — VNEIL OS INTERFACE</h2>
+        
+        <!-- System Status Panel -->
+        <div class="status-panel">
+          <div class="status-card">
+            <div class="status-icon">🔋</div>
+            <div class="status-label">ENERGIA</div>
+            <div class="status-value" id="energy-status">100%</div>
+            <div class="status-bar">
+              <div class="status-bar-fill" id="energy-bar" style="width: 100%;"></div>
+            </div>
+          </div>
+          
+          <div class="status-card">
+            <div class="status-icon">💾</div>
+            <div class="status-label">PAMIĘĆ</div>
+            <div class="status-value" id="memory-status">0%</div>
+            <div class="status-bar">
+              <div class="status-bar-fill" id="memory-bar" style="width: 0%;"></div>
+            </div>
+          </div>
+          
+          <div class="status-card">
+            <div class="status-icon">🌐</div>
+            <div class="status-label">SIEĆ</div>
+            <div class="status-value" id="network-status">AKTYWNA</div>
+            <div class="status-indicator-dot pulse"></div>
+          </div>
+          
+          <div class="status-card">
+            <div class="status-icon">⚙️</div>
+            <div class="status-label">PROCESY</div>
+            <div class="status-value" id="process-count">0</div>
+          </div>
+        </div>
+        
+        <!-- System Activity Log -->
+        <div class="activity-log">
+          <div class="log-header">
+            <span>📡 DZIENNIK AKTYWNOŚCI SYSTEMU</span>
+            <button id="clear-log" class="log-control">Wyczyść</button>
+          </div>
+          <div id="log-content" class="log-content">
+            <!-- Activity log will be populated by JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Interactive OS Map Section -->
+      <section class="map-section">
+        <h2 class="section-title">🌐 Mapa Struktury Systemu</h2>
+        
+        <!-- Selected Node Info -->
+        <div id="selected-info" class="selected-info" style="display: none;">
+          <strong>Wybrano:</strong> <span id="selected-label">—</span>
+        </div>
+        
+        <!-- Interactive OS Map -->
+        <div id="os-map" class="os-map">
+          <!-- Map will be rendered by app.js -->
+          <div class="loading" style="text-align: center; padding: 3rem; color: var(--text-secondary);">
+            Ładowanie mapy systemu...
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div id="system-status">
+        <div class="status-indicator">
+          <span class="status-dot"></span>
+          <span>System operacyjny: INICJALIZACJA</span>
+        </div>
+      </div>
+      <p style="margin-top: 1rem;">
+        © 2024 VERTYX NEXUS EIL — VNEIL Operating System v1.0
+      </p>
+    </footer>
+
+    <!-- Application Script -->
+    <script src="app.js"></script>
+  </body>
+</html>
