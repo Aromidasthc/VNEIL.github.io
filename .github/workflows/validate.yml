@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Run super-linter
-        uses: github/super-linter/slim@v6
+        uses: github/super-linter/slim@v7
         env:
           VALIDATE_MARKDOWN: true
           VALIDATE_YAML: true
