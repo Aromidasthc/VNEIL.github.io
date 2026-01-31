@@ -1,0 +1,21 @@
+{
+  "name": "vneil-genesis-demo",
+  "version": "0.1.0",
+  "description": "Minimal demo server for VNEIL-GENESIS to create a ZIP and run a simple demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pack": "node scripts/pack.js",
+    "pack:tar": "node scripts/pack-tar.js",
+    "test": "node tsvne-validator.test.js && node tsvne-template.test.js && node index.test.js",
+    "test:validator": "node tsvne-validator.test.js",
+    "test:template": "node tsvne-template.test.js",
+    "test:index": "node index.test.js",
+    "validate": "node tsvne-validator.js tsvne-template.js"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "express": "^4.18.2",
+    "tar": "^7.5.6"
+  }
+}
