@@ -1,0 +1,19 @@
+{
+  "name": "vneil-genesis-demo",
+  "version": "1.0.0",
+  "description": "Minimal demo server for VNEIL‑GENESIS updated to use the latest Node LTS and dependencies (as of 2026)",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "pack": "node scripts/pack.js",
+    "pack:tar": "node scripts/pack-tar.js"
+  },
+  "dependencies": {
+    "archiver": "^6.0.0",
+    "express": "^5.0.0",
+    "tar": "^7.0.0"
+  }
+}

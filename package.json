@@ -1,0 +1,40 @@
+{
+  "name": "vneil-genesis-demo",
+  "version": "0.1.0",
+  "description": "Minimal demo server for VNEIL-GENESIS to create a ZIP and run a simple demo",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VERTYXNEXUSEIL/VNEIL-GENESIS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VERTYXNEXUSEIL/VNEIL-GENESIS/issues"
+  },
+  "homepage": "https://github.com/VERTYXNEXUSEIL/VNEIL-GENESIS#readme",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'Build completed - no build step needed for this project'",
+    "pack": "node scripts/pack.js",
+    "pack:tar": "node scripts/pack-tar.js",
+    "test": "node tsvne-validator.test.js && node tsvne-template.test.js && node index.test.js && node vercel-config.test.js",
+    "test:validator": "node tsvne-validator.test.js",
+    "test:template": "node tsvne-template.test.js",
+    "test:index": "node index.test.js",
+    "test:vercel": "node vercel-config.test.js",
+    "validate": "node tsvne-validator.js tsvne-template.js",
+    "lint": "eslint *.js scripts/*.js",
+    "lint:fix": "eslint *.js scripts/*.js --fix",
+    "format": "prettier --write \"**/*.{js,json,md}\"",
+    "format:check": "prettier --check \"**/*.{js,json,md}\""
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.3.1",
+    "archiver": "^5.3.1",
+    "express": "^4.18.2",
+    "tar": "^7.5.6"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "prettier": "^3.2.5"
+  }
+}
