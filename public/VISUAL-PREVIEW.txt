@@ -1,0 +1,134 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                        VNEIL OS — VISUAL PREVIEW                              ║
+║                     www.vertyxnexus.pl Website Design                         ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│                          ╔═══════════════════════╗                           │
+│                          ║  [VERTYX NEXUS LOGO]  ║                           │
+│                          ║   (Neon Green Glow)   ║                           │
+│                          ╚═══════════════════════╝                           │
+│                                                                              │
+│                        ▓▓▓▓▓  VNEIL OS  ▓▓▓▓▓                                │
+│                    (Gradient: Green → Cyan, Glowing)                         │
+│                                                                              │
+│                    SYSTEM OPERACYJNY TSVNE                                   │
+│                        (Gray, Uppercase)                                     │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                      │
+                                      │ (Animated grid background)
+                                      │
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│         ╔══════════════════════════════════════════════════════════╗         │
+│         ║   🌐 Mapa Struktury Systemu (Green Glow Title)          ║         │
+│         ╠══════════════════════════════════════════════════════════╣         │
+│         ║                                                          ║         │
+│         ║   ┌──────────────────────────────────────────┐           ║         │
+│         ║   │ Wybrano: K* — Warunek Egzystencjalny     │           ║         │
+│         ║   │ (Green border, glowing - appears on click)│          ║         │
+│         ║   └──────────────────────────────────────────┘           ║         │
+│         ║                                                          ║         │
+│         ║              ┌─────────────────────┐                     ║         │
+│         ║              │  🌌 BOSON-O         │ (Cyan border)       ║         │
+│         ║              │ Kotwica Istnienia   │ (Hover: glow)       ║         │
+│         ║              └─────────────────────┘                     ║         │
+│         ║                       │                                  ║         │
+│         ║                       ↓ (Gradient connector)             ║         │
+│         ║              ┌─────────────────────┐                     ║         │
+│         ║              │     CORE-0          │ (Green border)      ║         │
+│         ║              │ Aktywator Egzystencji│                    ║         │
+│         ║              └─────────────────────┘                     ║         │
+│         ║                                                          ║         │
+│         ║   ┌──────────────┐ ┌──────────────┐ ┌──────────────┐    ║         │
+│         ║   │ I—Inwarianty │ │  ECG—Przyc.  │ │  EIL AI      │    ║         │
+│         ║   └──────────────┘ └──────────────┘ └──────────────┘    ║         │
+│         ║                         │                │               ║         │
+│         ║              ┌──────────┴────┬───────────┴───┐           ║         │
+│         ║              │               │               │           ║         │
+│         ║          ┌───┴───┐      ┌───┴───┐      ┌────┴────┐      ║         │
+│         ║          │  K*   │      │  TVM  │      │φ-control│      ║         │
+│         ║          └───────┘      └───────┘      └─────────┘      ║         │
+│         ║                                                          ║         │
+│         ║                       ↓ (Connector)                     ║         │
+│         ║              ┌─────────────────────┐                     ║         │
+│         ║              │    META-CYCLE       │ (Green border)      ║         │
+│         ║              │  Cykl Systemowy     │                     ║         │
+│         ║              └─────────────────────┘                     ║         │
+│         ║                                                          ║         │
+│         ║   ┌──────────────┐ ┌──────────────┐ ┌──────────────┐    ║         │
+│         ║   │ Regeneracja  │ │ Reinkarnacja │ │Samowyłączenie│    ║         │
+│         ║   └──────────────┘ └──────────────┘ └──────────────┘    ║         │
+│         ║                                                          ║         │
+│         ║                       ↓ (Connector)                     ║         │
+│         ║              ┌─────────────────────┐                     ║         │
+│         ║              │  PORTY SYSTEMOWE    │ (Cyan border)       ║         │
+│         ║              │    (BOX 1–10)       │                     ║         │
+│         ║              └─────────────────────┘                     ║         │
+│         ║                                                          ║         │
+│         ║   ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐    ║         │
+│         ║   │ BOX-1 │ │ BOX-2 │ │ BOX-3 │ │ BOX-4 │ │ BOX-5 │    ║         │
+│         ║   └───────┘ └───────┘ └───────┘ └───────┘ └───────┘    ║         │
+│         ║   ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐    ║         │
+│         ║   │ BOX-6 │ │ BOX-7 │ │ BOX-8 │ │ BOX-9 │ │BOX-10 │    ║         │
+│         ║   └───────┘ └───────┘ └───────┘ └───────┘ └───────┘    ║         │
+│         ║                                                          ║         │
+│         ║   (All boxes: hover → cyan glow, click → highlight)     ║         │
+│         ║                                                          ║         │
+│         ╚══════════════════════════════════════════════════════════╝         │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                      │
+                                      ↓
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                            FOOTER SECTION                                    │
+│                                                                              │
+│                    ● System operacyjny: AKTYWNY                              │
+│                   (Green dot pulsing) (Green text)                           │
+│                                                                              │
+│           © 2024 VERTYX NEXUS EIL — VNEIL Operating System v1.0              │
+│                           (Gray text)                                        │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+════════════════════════════════════════════════════════════════════════════════
+
+COLOR SCHEME:
+─────────────
+• Background:     #0a0a0f (Near-black)
+• Card Background: #141420 (Dark gray-blue)
+• Primary Accent:  #00ff88 (Neon green)
+• Secondary Accent: #00d4ff (Neon cyan)
+• Text Primary:    #e0e0e0 (Light gray)
+• Text Secondary:  #a0a0b0 (Medium gray)
+
+ANIMATIONS:
+───────────
+• Logo: Pulsing glow (3s cycle)
+• Title: Subtle opacity change (2s)
+• Background: Moving grid pattern (20s)
+• Scanline: Horizontal sweep (3s)
+• Nodes: Hover glow effect (0.3s transition)
+• Status dot: Pulse animation (2s)
+
+INTERACTIONS:
+─────────────
+• Hover any node → Neon border + glow
+• Click any node → Highlight + show description
+• Keyboard: Tab to navigate, Enter/Space to select
+• Mobile: Touch to select, swipe to scroll
+
+════════════════════════════════════════════════════════════════════════════════
+
+TECHNICAL SPECS:
+────────────────
+• Load Time: <1 second
+• Bundle Size: ~470 KB (includes logo)
+• Zero Dependencies: Pure HTML/CSS/JS
+• Framework: None (vanilla JavaScript)
+• Responsive: Works on all device sizes
+• Browser: All modern browsers supported
+
+════════════════════════════════════════════════════════════════════════════════
