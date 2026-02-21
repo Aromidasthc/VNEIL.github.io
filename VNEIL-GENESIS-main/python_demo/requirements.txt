@@ -1,2 +1,2 @@
 # Use the latest stable Flask release (3.x as of Jan 2026)
-Flask==3.0.2
+Flask==3.1.3
